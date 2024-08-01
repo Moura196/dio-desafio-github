@@ -1,0 +1,14 @@
+- Estrutura de um elemento HTML:
+	<Abertura da tag + atributos> conteúdo <Fechamento da tag>
+
+- Elementos HTML:
+	<section>: Seção genérica de conteúdo
+	<header>: Cabeçalho da página ou de uma seção (logotipos,  menus, campos de busca)
+	<article>: Conteúdo independente e de maior relevância (contém outros elementos)
+	<aside>: Engloba conteúdos relacionados ao conteúdo principal, normalmente representadas como barras laterais
+	<footer>: Rodapé da página principal ou de algum outro elemento
+	<h1>-<h6>: Marcar a importância dos títulos e localização das seções
+	<p>: Representa um parágrafo (textos maiores), podem conter imagens, códigosm vídeos e outros tipos de conteúdos
+	<a>: Representa um hiperlink, serve para interligar conteúdos e páginas na web
+		<a href="">: hyperlink para onde sua âncora aponta, podem ser email (mailto:) e telefone (tel:)
+		<a target=""> Serve para abrir os links em outra aba do navegador usando o valor _blank
