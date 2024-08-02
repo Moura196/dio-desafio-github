@@ -1,0 +1,9 @@
+- Criar regras de estilos:
+	Formada por:
+	seletores(tag){
+		declarações(propriedas: valor)
+	}
+
+- Declarando ID(pode ser usado uma vez na página) e Classe no:
+	HTML: id="" e class=""
+	CSS: id->#header e class->.header
