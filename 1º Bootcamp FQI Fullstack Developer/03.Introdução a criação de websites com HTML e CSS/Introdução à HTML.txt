@@ -12,3 +12,10 @@
 	<a>: Representa um hiperlink, serve para interligar conteúdos e páginas na web
 		<a href="">: hyperlink para onde sua âncora aponta, podem ser email (mailto:) e telefone (tel:)
 		<a target=""> Serve para abrir os links em outra aba do navegador usando o valor _blank
+	<img>: Representa as imagens (sem tag de fechamento)
+		<img src="">: Obrigatório, o qual guarda o caminho para a imagem
+		<img alt=""> Melhora acessibilidade. Mostra a descrição da imagem
+	<ul>, <ol>, <li>: Representam listas. Agrupoa uma coleção de itens.
+		<ul> é uma lista não ordenada, representada por pontos, círculos ou quadrados
+		<ol> é uma lista ordenada, representadas por números, algorismos romanos ou letras
+		<li> é um item em cada lista,  pode conter váriois tipos de conteúdos (parágrafos, imagens, outras listas)
