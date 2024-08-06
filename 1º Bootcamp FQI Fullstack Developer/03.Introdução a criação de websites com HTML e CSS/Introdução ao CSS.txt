@@ -7,3 +7,55 @@
 - Declarando ID(pode ser usado uma vez na página) e Classe no:
 	HTML: id="" e class=""
 	CSS: id->#header e class->.header
+
+- Layout:
+	O navegador representa cada elemento HTML como uma caixa (Box model)
+	*Box model:
+		margin: entre os elementos
+		border: circundam o padding e conteúdo. Aqui mudamos a aparência dela (largura e cor)
+		padding: espaçamento entre a borda e o conteúdo (declarações de imagem de fundo funcionam nele)
+		content: o que meu bloco representa (texto, imagem...)
+
+- Estilizando Elemenntos:
+	*Padding e Margin:
+		1ª Partes superior/inferior e esquerdo/direito
+		2ª Dando valores para cada lado do box: começa pelo topo->direito->base->esquerdo
+		3ª Utilizando propriedades específicas para cada lado
+	
+	*Background:
+		1ª Nome da cor em inglês
+		2ª Código hexadecimal
+		3ª Atalho beckground (rever conceito)
+
+	*Border(colocar essas três propriedades ou propriedades específicas):
+		-Largura(-width): px, em e mm;
+		-Cor(-color): cor em inglês ou hexadecimal
+		-Estilo(-style):
+			-solid: borda simples e reta
+			-dotted: bolinhas com pequenos espaçamentos
+			-dashed: linha tracejada
+		-Raio(-radius): px,  %. Pode colocar um valor único ou vários, que representam a mesma sequência do padding e margin
+
+	*Texto(font-):
+		-Fonte(-family): podem ser usadas fontes da própria internet ou já instaladas na máquina. Sugere-se que utilize as fontes seguras, chamada web safe fonts
+		-Tamanho(-size): tamanho do texto
+		-Estilo(-style): italic ou normal
+		-Peso(-weigth): normal ou bold
+		-Alternar(-transform): uppercase(maiúsculo), lowercase(minúsulo), capitalize(primeiras letras em maiúsculo)
+		-Destaque(-decoration): underline(linha abaixo), overline(linha acima), line-through(linha cortando)
+		
+	*Marcadores de listas:
+		-list-style-type: cada tipo de lista terá um comando diferente
+		-list-style-imagem: pode colocar um marcador como imagem
+
+-Dimensão e alinhamento:
+	*width: Largura
+	*height: Altura
+	*Max-width: Largura máxima que um elemento pode ter. Assim o elemento se ajustará dependendo da situação
+	*Max-height: Altura máxima que um elemento pode ter. Assim o elemento se ajustará dependendo da situação
+	*Margin: Espaçamento entre elemento. Valor "auto" alinhar horizontalmente automaticamente.
+	*text-align: Alinhar elementos
+
+Websites to study:
+	https://developer.mozilla.org/pt-BR/
+	https://www.w3schools.com/
