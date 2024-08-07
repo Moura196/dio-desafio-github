@@ -1,0 +1,84 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 400px;
+    width: 500px;
+    background-image: url('./open_door.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(0.5);
+    color: rgb(29, 23, 23);
+    cursor: pointer;
+    /* Como iremos fazer o hover, sugeriu-se que realizasse a configuração inicial */
+    transition: 0.3s;
+}
+
+.card-wrapper {
+    text-align: center;
+    display: flex;
+    /* Alinhar um abaixo do outro */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Poder mexer com pseudo-elemento do card-wrapper para fazer o efeito de borda (expansão).
+    - Pseudo-elemento: adiciona um elemento antes ou depois de um elemento que estamos selecionando.*/
+    position: relative;
+}
+
+.card-wrapper::before {
+    content: '';
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    display: block;
+    border: 1px solid rgb(29, 23, 23);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.card-wrapper h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    transition: 0.3s;
+}
+
+.card-wrapper p {
+    font-size: 0px;
+    visibility: hidden;
+    opacity: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.card:hover {
+    filter: unset;
+}
+
+.card:hover > .card-wrapper::before {
+    height: 300px;
+    width: 400px;
+    opacity: 1;
+}
+
+.card:hover > .card-wrapper p {
+    opacity: 1;
+    visibility: visible;
+    font-size: 14px;
+}
