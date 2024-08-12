@@ -1,0 +1,56 @@
+- Benefícios:
+	Controle de versão
+	Armazenamento em nuvem
+	Trabalho em equipe
+	Melhorar seu código
+	Reconhecimento (Rede Social)
+
+- Comandos básicos de navegação:
+      Windows(Dell)		Unix(Bash)
+	cd			cd		navegar
+	dir			ls		listar
+	mkdir			mkdir		criar
+	del/rmdir		rm -rf		remover/deletar
+	echo			echo		mostrar output
+				ls -a --mostrar pastas ocultas
+				mv {arquivo/pasta} ./{pasta} --mover arquivo/pasta para uma outra pasta
+
+- SHA (secure hash algorithm):
+	Algoritmo de encriptação (pegar seu arquivo e
+embaralhar)
+	O git faz uso
+	Comando: openssl sha1 {arquivo}
+
+- Objetos do Git:
+	Blobs (blob tamanho\0{nome}
+	Trees (tree tamanho\0blobsha1{nome})
+	Commits
+    * echo '{arquivo}' | git hash-object --stdin
+    * echo -e '{arquivo}' | openssl sha1
+
+- Chaves SSH:
+	ssh-keygen -t ed25519 -C {email} --criar a chave
+	cat --visualizar o conteúdo
+	pwd --mostra o path
+	eval $(ssh-agent -s) --iniciando um processo p/rodar o ssh como plano de fundo
+	ssh-add {chave} --entregar a chave p/o agente criado
+
+- Commandos Git:
+	*iniciando um repositório
+		git init --iniciar repositório
+		git remote add origin {link do repositório remoto} --adicionar o endereço do repositório remoto
+		git remoto -v --lista de repositório cadastrados
+	
+	*comando de envios
+		git add --mover e dar inicio ao versionamento de arquivos
+		git commit -m "{mensagem}" --realizar commit
+		git status --verificar status do arquivo
+		git restore --staged --para tornar arquivo unstage
+		git push origin main --enviar para repositório remoto
+		git pull origin main --puxar os arquivos/pastas do repositótio remoto
+		git pull origin main --rebase --fazer pull do main para meu repositório local sem criar um pull request
+	
+	*configurações/desconfigurações
+		git config --global user.email "{email}" --configurar autor atrelado ao commit(configuração inicial)
+		git config --list --buscar lista de configurações
+		git config --global --unset --desconfigurar instalação do Git	
