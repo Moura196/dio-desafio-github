@@ -11,5 +11,3 @@
 				  *Smartwhatches
 				  *IoT
 				  *APIs
-
-- Manipulando arquivos
