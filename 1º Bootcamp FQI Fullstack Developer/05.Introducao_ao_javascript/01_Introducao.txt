@@ -1,0 +1,29 @@
+- Interpretada:
+	- Não precisa ser compilada para receber o resultado do código
+	- Multiparadigma: orientação a objetos, programação funcional ou estruturada
+	- Padrão ECMAScript: *https://www.w3schools.com/js/js_es6.asp
+			     *https://ecma-international.org/publications-and-standards/standards/ecma-6/
+	
+	- Desenvolver aplicações: *Web
+				  *Mobile
+				  *Games
+				  *Automatizar Alexa
+				  *Smartwhatches
+				  *IoT
+				  *APIs
+
+- Frameworks e bibliotecas:
+	- Vue.js
+	- React
+	- Angular
+	
+- Dia a dia no trabalho:
+	- Plataformas que ajudam no quesito conhecimento e compartilhamento de conteúdo:
+	- MDN web docs
+	- Stackoverflow
+	- W3C
+	- Digital Innovation One
+	- YouTube
+	- Github
+	- LinkedIn
+	- X

@@ -1,0 +1,36 @@
+- Linguagem de alto nível:
+	- Se assemelha a linguagem humana (não é bytecode)
+	- Cria script dinâmicos
+	- Utilizado em desenvolvimento de aplicativos web e móveis
+
+- Tipagem fraca: Regras de uso de dados
+	- Declaração de dados dinâmica
+	- Tipos de dados:
+		*Boolean
+		*Null
+		*Undefined
+		*Number
+		*String
+		*Array
+		
+- Três modos de declação das variáveis
+	- var:
+	- let: Uso local por convenção
+	- cosnt: Valor fixo. Tem que ter valor inicial
+
+- Vetores (arrays):
+	- Arrays: tipo de lista (let array = [];). Podem ter valores de outros arrays.
+	
+-Objetos: possuuem propriedades e valores:
+	- Manipulação:
+
+
+
+
+
+
+
+
+
+
+
