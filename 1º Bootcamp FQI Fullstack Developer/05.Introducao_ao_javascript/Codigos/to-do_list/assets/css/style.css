@@ -1,0 +1,18 @@
+body {
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+    & .text_wrapper {
+        text-align: center;
+    }
+
+    & .checkbox_wrapper {
+        text-align: center;
+    }
+}
+
+h1 {
+    text-align: center;
+}
+
