@@ -1,0 +1,10 @@
+- Arquitetura do Framework:
+	- Linguagem de programação Dart
+	- Flutter Engine (Skia)
+	- Biblioteca Foundation
+	- Desing-specific Widgets para Android(Google Material) e iOS(Cupertino)
+
+- Camadas:
+	- Alto nível(Dart)
+	- Baixo nível(C/C++): permite o flutter pegar informações do sistema operacional
+	- Device
