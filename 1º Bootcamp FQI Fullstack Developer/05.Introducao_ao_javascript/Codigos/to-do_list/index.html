@@ -5,19 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do List</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="./assets/js/script.js"></script>
+    
 </head>
 <body>
     <h1>To-Do list</h1>
 
     <div class="text_wrapper">
-        <input type="text" id="toggle">
+        <input type="text" id="toggle" oninput="adicionar()">
         <label for="toggle">Qual tarefa deseja adicionar a lista?</label>
-        <button class="add_task">Adicionar</button>
+        <button class="add_task" onclick="adicionar()">Adicionar</button>
     </div>
 
     <div class="checkbox_wrapper">
-        <input class="toDo" type="checkbox">
+        <input id="toDo" type="checkbox">
+            <p id="try"></p>
+        </input>
     </div>
+
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
