@@ -21,12 +21,11 @@
 - Vetores (arrays):
 	- Arrays: tipo de lista (let array = [];). Podem ter valores de outros arrays.
 	
--Objetos: possuuem propriedades e valores:
+- Objetos: possuem propriedades e valores:
 	- Manipulação:
 
-
-
-
+- Estruturas condicionais:
+	- Decisão: if
 
 
 
