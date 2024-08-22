@@ -17,10 +17,21 @@
 // }
 
 // SECOND ATTEMPT
-var textWrote = document.getElementById('toggle');
+// var textWrote = document.getElementById('toggle');
 
-var textToShow = document.getElementById('toDo');
+// var textToShow = document.getElementById('toDo');
 
-function adicionar() {
-    document.getElementById('try').innerHTML = textWrote;
+// function adicionar() {
+//     document.getElementById('try').innerHTML = textWrote;
+// }
+
+// THIRD ATTEMPT
+function addTask() {
+    var x = document.getElementById('task').value;
+
+    console.log(x);
+
+    document.getElementById('toDo').innerHTML =  x;
+
+    console.log(document.getElementById('toDo'));
 }

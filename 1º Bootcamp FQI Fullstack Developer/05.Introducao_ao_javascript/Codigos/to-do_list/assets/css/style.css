@@ -9,6 +9,7 @@ body {
 
     & .checkbox_wrapper {
         text-align: center;
+        visibility: visible;
     }
 }
 
