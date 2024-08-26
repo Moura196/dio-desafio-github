@@ -1,0 +1,44 @@
+- Atribuição:
+	= -> x = y
+	+= -> x = x + y
+	*= -> x = x * y
+	/= -> x = x / y
+	%= -> x = x % y
+
+- Aritmética:
+	+
+	-
+	*
+	** -> Elevando um número a outro
+	/
+	%
+	++
+	--
+
+- Comparção:
+	==
+	=== -> Mesmo valor e tipo
+	!=
+	!== -> Valor e tipo diferentes
+	>
+	<
+	>=
+	<=
+
+- Lógica:
+	&& -> 'e' lógico
+	|| -> 'ou' lógico
+	! -> 'não' lógico
+
+- Condicional (ternário):
+	   |-------TRUE-------|
+	(condition) ? expression1 : expression2
+	   |--------------FALSE--------------|
+
+			IGUAL A
+
+	if (condition) {
+		expression1    <- TRUE
+	} else {
+		expression2    <- FALSE
+	}
