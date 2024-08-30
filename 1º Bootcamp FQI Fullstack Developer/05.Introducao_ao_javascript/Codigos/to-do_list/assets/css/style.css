@@ -1,15 +1,33 @@
 body {
-    display: block;
+    display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 
-    & .text_wrapper {
+    & button {
+        padding: 5px;
         text-align: center;
     }
 
-    & .checkbox_wrapper {
-        text-align: center;
-        visibility: visible;
+    & input[type='text'] {
+        padding: 5px;
+    }
+
+    & #tasks {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    & .task-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    & :checked + label {
+        text-decoration: line-through;
+        color: grey;
     }
 }
 

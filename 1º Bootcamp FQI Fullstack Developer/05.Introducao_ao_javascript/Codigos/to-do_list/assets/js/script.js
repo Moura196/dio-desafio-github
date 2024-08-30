@@ -1,37 +1,32 @@
-// FIRST ATTEMPT
-// var toDoList = ;
+// FOURTH ATTEMPT
 
-// var toDoWrapper = document.getElementsByClassName('toDo');
+const form = document.getElementById('task-form');
+const taskList = document.getElementById('tasks');
 
-// var toDo = '';
+form.onsubmit = function (e) {
+    console.log('o');
+    // e.preventDefault();
+    const inputField = document.getElementById('task-input');
+    addTask(inputField.value);
+    form.reset();
+}
 
-// // document.getElementsByClassName('add_task').addEventListener('click', adicionar);
+function addTask(description) {
+    const taskContainer = document.createElement('div');
+    const newTask = document.createElement('input');
+    const taskLabel = document.createElement('label');
+    const taskDescriptionNode = document.createTextNode(description);
 
-// function adicionar() {
-//     // o que for escrito dentro do <input id=toggle type=text> quero que seja adicionado no <input class=to-do type=checkbox> = toDoList
-//     toDo = toDo + document.getElementsByClassName('toDo');
+    newTask.setAttribute('type', 'checkbox');
+    newTask.setAttribute('name', description);
+    newTask.setAttribute('id', description);
 
-//     toDoWrapper.innerHTML = toDo;
+    taskLabel.setAttribute('for', description);
+    taskLabel.appendChild(taskDescriptionNode);
 
-//     // document.getElementsByClassName('toDos').innerHTML = toDo;
-// }
+    taskContainer.classList.add('task-item');
+    taskContainer.appendChild(newTask);
+    taskContainer.appendChild(taskLabel);
 
-// SECOND ATTEMPT
-// var textWrote = document.getElementById('toggle');
-
-// var textToShow = document.getElementById('toDo');
-
-// function adicionar() {
-//     document.getElementById('try').innerHTML = textWrote;
-// }
-
-// THIRD ATTEMPT
-function addTask() {
-    var x = document.getElementById('task').value;
-
-    console.log(x);
-
-    document.getElementById('toDo').innerHTML =  x;
-
-    console.log(document.getElementById('toDo'));
+    taskList.appendChild(taskContainer);
 }
