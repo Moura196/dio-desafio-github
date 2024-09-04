@@ -4,7 +4,7 @@
 	- Biblioteca Foundation
 	- Desing-specific Widgets para Android(Google Material) e iOS(Cupertino)
 
-- Camadas:
+- Camadas: 
 	- Alto nível(Dart)
 	- Baixo nível(C/C++): permite o flutter pegar informações do sistema operacional
 	- Device
