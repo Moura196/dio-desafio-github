@@ -8,3 +8,9 @@
 	- Alto nível(Dart)
 	- Baixo nível(C/C++): permite o flutter pegar informações do sistema operacional
 	- Device
+
+- Criando uma aplicação:
+	flutter create {aplicação} -> cria um novo projeto flutter com o nome da aplicação
+	flutter create -t app --org com.companyname.packagename -a kotlin -i swift myapp
+			|	 |				 |
+		    template  nome de pacote		      linguagem padrão para aplicação android(java ou kotlin). -i é para linguagem utilizada no iOS
