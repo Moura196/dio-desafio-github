@@ -1,0 +1,20 @@
+-Escopo diferente:
+Let e Const só funcionam com escopo de bloco.
+	- if é um escopo de bloco, por exemplo.
+
+- Hoisting:
+	Atribuir um valor de uma variáveis, antes de declarar ela (só acontece com o var)
+
+- Redeclaração:
+	Não pode redeclarar o let (só acontece com o var)
+
+- Reatribuição:
+	Nome da variável e igualar ela a outro valor
+
+- Resumo:
+
+variável	var	   const	let
+escopo	    global/local   bloco	bloco
+redeclarar	sim	    não		não
+reatribuir	sim	    não		sim
+hoisting	sim	    não		não
