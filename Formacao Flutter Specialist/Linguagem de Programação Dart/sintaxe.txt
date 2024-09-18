@@ -1,0 +1,30 @@
+- Algumas sintaxes:
+	INT:
+	number.isEven <---- Verifica se é um número par
+	number.isOdd <---- Verifica se é um número ímpar
+	number.isInfinite <---- Se o número é finito
+	number.inifinity <---- Se o número é infinito
+	number.isNaN <---- Verificar se um número é válido
+	number.isNegative <---- Se o número é negativo
+	int.parse("10") <---- Transforma uma string em int
+	int.tryParse("teste") <---- Tenta transformar uma string em int, porém se der erro ele retorna um valor nulo (null)
+
+	DOUBLE:
+	numero.truncate() <---- Remove um ponto flutuante
+	numero.toInt() <---- Converte para inteiro
+	numero.ceil() <---- Arredondamento para cima
+	numero.floor() <---- Arredondamento para baixo
+	
+	STRING:
+	texto.isEmpity <---- Verificar se o texto está vazio
+	texto.length <---- Retorna o tamanho da string
+	texto.toUpperCase() <---- Deixa a string maiúscula
+	texto.toLowerCase() <---- Deixa a string minúscula
+	texto.contains(outroTexto) <---- Verifica se uma string está dentro da outra (sensitive content)
+	texto.substring(numero) <---- Quebra uma string em pedaço, que será especificado pelo número que irá iniciar
+	texto.substring(começo, fim) <---- Mesma coisa, mas especificando por onde irá começar e terminar o pedaço da string
+	texto.indexOf("caracter ou palavra") <---- Retornar a posição do caracter ou da palavra na string. Caso não exista retornará -1
+	texto.replaceAll("caracter", "substituir") <---- Substitui o caracter especificado por outro em toda a string
+	texto.split("caracter") <---- Realizar a quebra da string onde o caracter aparecer e retorna um array
+	texto.trim() <---- Remover os espaços
+	texto.trimRight() ou trimLeft() <---- Remove os espaços dos lados específicos
