@@ -5,7 +5,7 @@ Principais Estruturas de Dados e seus Métodos:
 - Não primitivo:
 	Objetos, Arrays
 
-- Métodos Strings:
+- Métodos Strings(algun:
 	Concatenação
 	Propriedade Length
 	Iterabilidade
@@ -13,4 +13,27 @@ Principais Estruturas de Dados e seus Métodos:
 	Index de letras
 
 - Métodos Números:
-	Operações Aritmética
+	Operações Aritméticas
+
+- Métodos Boolean(validar condicionais):
+	Validação/Comparação
+
+- Métodos Arrays:
+	Array = Lista iterável de elementos
+	Push -> Adicionar no final da lista
+	Pop -> Retira o ultimo elemento
+	Shift -> Retira o primeiro elemento
+	Unshift -> Adiciona no início da lista
+
+- Métodos Objetos(semelhante a dicionário):
+	Estrutura:
+	let person = {
+		keys---values
+		name: 'John'
+		age: 20
+	};
+
+- Empty, null e undefined:
+	Empty: variável/objeto/array declarada ou inicializada com nenhum valor
+	Null: não inicializado, valor não existe
+	Undefined: não declarado e vazio
