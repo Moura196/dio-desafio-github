@@ -12,7 +12,7 @@ FUNDAMENTOS DE ALGORITMOS(fundamentos_de_algoritmos):
 - Variável: pode ser sobrescrita
 	* possui um papel: ação (modifica um estado) e controle 
 (estrutura).
-- Invaviável: constante.
+- Invariável: constante.
 
 - Instruções primitivas: operadores.
 
