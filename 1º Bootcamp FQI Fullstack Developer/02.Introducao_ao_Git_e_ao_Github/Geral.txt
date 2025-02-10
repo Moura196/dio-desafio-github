@@ -39,7 +39,7 @@ embaralhar)
 	*iniciando um repositório
 		git init --iniciar repositório
 		git remote add origin {link do repositório remoto} --adicionar o endereço do repositório remoto
-		git remoto -v --lista de repositório cadastrados
+		git remote -v --lista de repositório cadastrados
 	
 	*comando de envios
 		git add --mover e dar inicio ao versionamento de arquivos
