@@ -1,0 +1,16 @@
+Principais Estruturas de Dados e seus Métodos:
+- Primitivos:
+	Números(sem aspas), String, Boolean, Null, Undefined
+
+- Não primitivo:
+	Objetos, Arrays
+
+- Métodos Strings:
+	Concatenação
+	Propriedade Length
+	Iterabilidade
+	Formatação
+	Index de letras
+
+- Métodos Números:
+	Operações Aritmética
