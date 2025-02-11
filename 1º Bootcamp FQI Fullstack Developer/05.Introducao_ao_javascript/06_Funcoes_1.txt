@@ -1,0 +1,73 @@
+GERAL FUNÇÃO
+- Estruturas:
+	function nome(parâmetros) {
+		// instruções
+		variiáveis dentro da função só podem sser usadas dentro da função
+	}
+
+- Função anônima(variável pode armazzenar uma função):
+	const soma = function (a, b) {
+		return a + b;
+	}
+	
+	soma(1, 2);
+	soma(5, 4);
+
+- Função autoinvocável:
+	(
+	   function() {
+		let name = "DIO"
+		return name;
+	   }
+	)();
+
+- Callbacks:
+	Função passada como argumento para outra
+
+PARÂMETRO
+- Dentro da função pode ser especificado um valor para o parâmetro
+
+- Arguments: um array com todos os parâmetros passados quando a função foi invocada
+
+- Arrays: Se for usado um array como parâmetro de uma função, pode ser utilizado o SPREAD.
+	-> SPREAD(...): forma de lidar separadamente com elementos de um array.
+
+     ex:function sum(x, y, z) {
+		return x + y + z;
+	}
+
+	const numbers = [1, 2, 3];
+	console.log(sum(...numbers));
+
+	-> REST(...): combinam os argumentos em um array. Neste caso você utiliza no parâmetro da função.
+     ex:function confereTamanho(...args) {
+		consolle.log(args.length)
+	}
+	
+	confereTamanho(); 0
+        confereTamanho(1, 2); 2
+        confereTamanho(1, 2, 3); 3
+	
+- Objetos(desestruturação de objeto):
+	-> Filtrar apenas os dados que você quiser através das {} como parâmetro.
+     ex:function user = {
+		id: 1,
+		displayName: 'João',
+		fullName: {
+			firstName: 'John',
+			lastName: 'Doe'
+		}
+	};
+
+	function userId({id}) {
+		return id;
+	}
+
+	userId(user);
+
+	-> Equivalência: Colocar um novo nome para aquele dado de um objeto.
+     ex:function getFullName({fullName: {firstName: first, lastName: last}}) {
+		return `${first} ${last}`;
+	}
+
+	getFullName(user);
