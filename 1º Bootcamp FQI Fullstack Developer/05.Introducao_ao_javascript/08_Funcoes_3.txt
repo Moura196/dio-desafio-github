@@ -1,0 +1,14 @@
+THIS
+- Referência do contexto:
+	Contexto		Referência
+	Em um objeto(método)	Próprio objeto dono do método
+	Sozinha			Objeto Global(em navegadores, window)
+	Função			Objeto Global
+	Evento			Elemento que recebeu o evento
+
+- Manipulando seu valor:
+	- Call(nomeFunção.call(objeto)): chamar o objeto ao qual quero que o "this" se refira
+		Possível passar como parâmetros de uma função -> soma.call(myObj, 1, 5);
+	- Apply(nomeFunção.apply(objeto)):
+		Diferencia do "call", argumentos dentro de um array -> soma.apply(myObj, [1, 5]);
+	- Bind: clona estrutura da função, que foi chamado, e passa o objeto como parâmetro. Variável se comporta como uma função.

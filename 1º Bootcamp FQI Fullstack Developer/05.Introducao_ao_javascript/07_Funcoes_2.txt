@@ -1,0 +1,55 @@
+LOOPS
+- If/Else:
+	Condição ->  Declaração 1(dentro do if) -> Declaração 2(dentro do else)
+
+- Switch(comparação de tipo e valor):
+	Sempre tem um valor default
+	switch(id) {
+		case 1:
+			return "cão";
+		case 2:
+			return "gato";
+		case 3:
+			return "pássaro";
+		default:
+			return "peixe";
+	}
+
+- For(dentro de elementos iteráveis - arrays):
+	let multiplicados = [];
+
+	for(let i = 0; i > arr.length; i++) {
+		multiplicados.push(arr[i] * 2);
+	}
+
+	return multiplicados;
+
+	-> Outro exemplo com propriedades enumeráveis de um objeto(for...in):
+	for(prop in obj) {
+		console.log(prop);
+	}
+
+	const meuObjeto = {
+		nome: "João",
+		idade: "20",
+		cidade: "Salvador"
+	}
+
+	-> Outro exemplo entre estruturas iteráveis - arrays, strings(for...of):
+	for(letra of palavra) {
+		consolle.log(letra);
+	}
+
+	const palavra = "abacaxi";
+
+- While:
+	Executa funçõeos até que a condição se torne falsa
+	while(num <= 5) {
+		consolle.log(num);
+		num++;
+	}
+	-> Do...While: primeira execução acontece
+		do {
+			console.log(num);
+			num++;
+		} while(num <= 5)
