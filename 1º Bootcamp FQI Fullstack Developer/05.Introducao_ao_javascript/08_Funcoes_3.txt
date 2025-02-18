@@ -12,3 +12,20 @@ THIS
 	- Apply(nomeFunção.apply(objeto)):
 		Diferencia do "call", argumentos dentro de um array -> soma.apply(myObj, [1, 5]);
 	- Bind: clona estrutura da função, que foi chamado, e passa o objeto como parâmetro. Variável se comporta como uma função.
+
+ARROW FUCTION(não faz hoisting - chamar a função antes de declarar)
+- const helloWorld = fuction() {
+	return "Hello World";
+  }
+
+	PODE SER REESCRITA POR
+
+  const helloWorld = () => {
+	return "Hello World";
+  }	 
+
+	PODE SER REESCRITA POR QUANDO TIVER APENAS UMA LINHA
+
+  const helloWorld = () => "Hello World"
+
+	-> Restrições: "this" será o objeto global; não existe o objeto "arguments"(juntar elementos em uma lista); construtores não podem ser utilizados
