@@ -1,0 +1,24 @@
+ERROS
+- ECMAScript Error: ocorre em tempo de execução
+	mensagem, nome, linha, call stack
+
+- DOMException: relacionados ao Document Object Model (DOM)
+	Relacionada à estrutura da árvore de elementos da Web
+
+TRATAMENTO DOS ERROS
+- Throw:
+	Ao invés de usar "return" em alguma verificação de erro,  utilizasse "throw. No return irá trazer uma string e no throw vai trazer um erro com suas propriedades.
+
+- Try...Catch(personalizado):
+	Dentro do "try" é o que você quer que o sistema valide e no "catch" o que vai ser tratado como erro(pode ser colocado um "throw" dentro do "catch").
+
+- Finally:
+	Instrução chamado após a verificação do código, independentemente de ter acontecido um erro ou não.
+
+COMO MANIPULAR UM OBJETO ERROR
+- Sintaxe: new Error(message, fileName, lineNumber) -> Verificar documentação de cada navegador. Os parâmtros são opcionais.
+	Declarando o erro:
+		const MeuErro = new Error('Mensagem Inválida');
+		MeuErro.name = 'InvalidMessage'; -> Criando um nome para o erro que declarei
+
+		throw MeuErro;
