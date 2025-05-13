@@ -12,4 +12,5 @@
 
 ## Autenticação em memória
 - Permite criar mais de usuário e perfis de acesso.
-- Preciso criar uma classe WebSecurityConfigurerAdapter.
+- Preciso criar uma classe WebSecurityConfig.
+- Depois preciso criar rotas para cada tipo de usuário criado.
