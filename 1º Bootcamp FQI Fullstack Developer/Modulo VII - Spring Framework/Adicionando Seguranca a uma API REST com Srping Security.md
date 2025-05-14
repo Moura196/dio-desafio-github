@@ -14,3 +14,7 @@
 - Permite criar mais de usuário e perfis de acesso.
 - Preciso criar uma classe WebSecurityConfig.
 - Depois preciso criar rotas para cada tipo de usuário criado.
+
+## Configure Adapter
+- Especificar as rotas com suas permissões, e métodos específicos.
+- FOI ESPECIFICADAS AS ROTAS E AS ROLES DE CADA USUÁRIOS, MAS POR ALGUM MOTIVO NÃO ESTÁ LIMITANDO O USUARIO: user DE ACESSAR A ROTA: /admins.
