@@ -10,4 +10,4 @@ Organizar minhas anotações dos cursos da plataforma DIO aqui neste repositóri
 ### [Formação Kotlin Back-end Developer](https://github.com/Moura196/dio-desafio-github/tree/main/Forma%C3%A7%C3%A3o%20Kotlin%20Back-end%20Developer/Principios%20de%20Agilidade%20e%20Desenvolvimento%20Colaborativo)
 
 ## Projetos:
-### [miniguia-estudos-notebooklm]((***colocar link de referência do resumo***))
+### [Miniguia de estudos](https://github.com/Moura196/dio-desafio-github/blob/main/Projetos/miniguia-estudos-notebooklm.md)
