@@ -9,6 +9,6 @@
 
 # Miniguia de Estudo (Entrega Final):
 - Resultado final consolidado:
-    - Resumos estruturados do assunto (***colocar link de referência do resumo***);
-    - Um glossário com os principais conceitos aprendidos(***colocar link de referência do resumo***);
-    - Um conjunto de prompts reutilizáveis que possam apoiar futuras revisões sobre o tema(***colocar link de referência do resumo***).
+    - [Resumos estruturados do assunto](https://github.com/Moura196/dio-desafio-github/blob/main/Projetos/Resumo%20do%20Assunto.md);
+    - [Um glossário com os principais conceitos aprendidos](https://github.com/Moura196/dio-desafio-github/blob/main/Projetos/Gloss%C3%A1rio%20de%20conceitos.md);
+    - [Um conjunto de prompts reutilizáveis que possam apoiar futuras revisões sobre o tema](https://github.com/Moura196/dio-desafio-github/blob/main/Projetos/Prompts%20para%20revis%C3%A3o.md).
